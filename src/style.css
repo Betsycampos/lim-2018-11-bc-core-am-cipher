@@ -1,3 +1,9 @@
-boby {
-  font-size: xx-large
+h1{
+  font-size: 100px;
+}
+
+body {
+
+  background: pink ;
+  text-align: center;
 }
