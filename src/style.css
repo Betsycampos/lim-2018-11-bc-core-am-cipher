@@ -3,3 +3,16 @@ body {
   text-align: center;
   font-size:60px;
 }
+button{
+  border-radius: 10px;
+  background-color: green;
+}
+button:hover{
+  background-color: red;
+}
+
+p{
+  border:1px solid black;
+  width: 20%;
+  margin: 0 auto;
+}
