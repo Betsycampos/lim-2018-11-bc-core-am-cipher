@@ -18,6 +18,7 @@ window.cipher = {
   document.getElementById('prueba1').innerHTML = msg;
 }
 betsy.addEventListener("click",loadData1);
+clickresetDep.addEventListener('click',reset);
 
 
 
