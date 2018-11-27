@@ -11,13 +11,13 @@ button:hover{
   background-color: black;
 }
 
-p {
+#prueba1 {
   border:1px solid black;
-  width: 20px;
+  width: 200px;
   margin: 0 auto;
 }
 
-#prueba1 {
+#prueba2 {
   border:1px solid black;
   width: 200px;
   margin: 0 auto;
