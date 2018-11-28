@@ -12,6 +12,7 @@ const btnDescifrar = document.getElementById('btn-descifrar');
   let numero = parseInt(codigo.value);
   let mensaje = texto.value.toUpperCase();
   let resultado1 = cipher.encode(numero, mensaje);
+  prueba1.style.display="block";
   prueba1.innerHTML= resultado1;
 
 }
@@ -20,7 +21,8 @@ const btnDescifrar = document.getElementById('btn-descifrar');
   let numero = parseInt(codigo.value);
   let mensaje= texto.value.toUpperCase();
   let resultado2 = cipher.decode(numero, mensaje);
-  prueba2.innerHTML= resultado2
+  prueba2.style.display="block";
+  prueba2.innerHTML= resultado2;
 
 }
 

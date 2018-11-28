@@ -1,7 +1,7 @@
 body {
   background-color: pink;
   text-align: center;
-  font-size:60px;
+  font-size: 60px;
 }
 button{
   border-radius: 10px;
@@ -13,12 +13,13 @@ button:hover{
 
 #prueba1 {
   border:1px solid black;
-  width: 200px;
-  margin: 0 auto;
+ 
+  display: none;
 }
 
 #prueba2 {
   border:1px solid black;
-  width: 200px;
+  
   margin: 0 auto;
+  display: none;
 }
