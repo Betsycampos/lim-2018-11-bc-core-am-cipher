@@ -10,9 +10,7 @@ window.cipher = {
         let resultado1 = String.fromCharCode(ascii);
         msg = msg + resultado1;
       }
-      else {
-        msg = msg + string[i];
-      }
+      
     }
     return msg;
   },
@@ -24,9 +22,6 @@ window.cipher = {
       if (string[i].charCodeAt() >= 65 && string[i].charCodeAt() <= 90) {
         let antiguoAscii1 = string[i].charCodeAt();
         let ascii1 = (((antiguoAscii1 + 65) - offset) % 26) + 65; // codigo ascii
-        if (ascii1 < 65) {
-          ascii1 += 26;
-        }
         let resultadoFinal = String.fromCharCode(ascii1);
         msg1 = msg1 + resultadoFinal;
       }
