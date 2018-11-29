@@ -24,11 +24,8 @@ const buttonReturn=document.getElementById("return")
   let mensaje= texto.value.toUpperCase();
   let resultado2 = cipher.decode(numero, mensaje);
   prueba1.innerHTML= resultado2
-
 }
 ocultado1.style.display="none";
-
-
 btnCifrar.addEventListener("click", Cifrar);
 btnDescifrar.addEventListener("click", Descifrar);
 buttonNext.addEventListener("click",() => {
