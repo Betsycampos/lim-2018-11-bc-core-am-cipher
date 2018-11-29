@@ -15,8 +15,7 @@ describe('cipher', () => {
     });
     it('deberia retornar "BCD" para "ABC123" con offset 1', ()=>{
       assert.equal(cipher.encode(1,"ABC123"),"BCD")
-    } )
-
+    } )           
   });
 
   describe('cipher.decode', () => {
@@ -32,15 +31,5 @@ describe('cipher', () => {
       assert.equal(cipher.decode(1,"ABC@"),"ZAB")
     } )
   });
-
- /* describe('cipher.createCipherWithOffset', () => {
-
-    it('debería ser una función', () => {
-      assert.equal(typeof cipher.createCipherWithOffset, 'function');
-    });
-
-    it('debería retornar un objeto con dos funciones (encode y decode) con offset fijado');
-
-  });*/
 
 });
