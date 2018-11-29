@@ -10,9 +10,7 @@ window.cipher = {
         let resultado1 = String.fromCharCode(ascii);
         msg = msg + resultado1;
       }
-      else {
-        msg = msg + string[i];
-      }
+      
     }
     return msg;
   },
