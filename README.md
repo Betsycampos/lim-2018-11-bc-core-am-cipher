@@ -291,3 +291,9 @@ Esta sección está  para ayudarte a llevar un control de lo que vas completando
 
 --------------------------------------
 
+
+# CONFIDENTIAL PLACE
+
+## ¿Para qué tipo de usuario está dirigido?
+
+Este proyecto fue creado para jovenes que recien se estan conociendo y quieren que sus mensajes sean confidenciales, en muchisimos casos segun las entrevistas dadas para ocultar informacion de sus padres.

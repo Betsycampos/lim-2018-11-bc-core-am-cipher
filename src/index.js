@@ -7,8 +7,8 @@ const btnCifrar = document.getElementById("btn-cifrar");
 const btnDescifrar = document.getElementById("btn-descifrar");
 const buttonNext=document.getElementById("next");
 const mostrando1 =document.getElementById("hoja1");
-const ocultado1=document.getElementById("hoja2")
-const buttonReturn=document.getElementById("return")
+const ocultado1=document.getElementById("hoja2");
+const buttonReturn=document.getElementById("return");
 
 //Función cifrar
  const Cifrar = () =>{
@@ -24,8 +24,7 @@ const buttonReturn=document.getElementById("return")
   let numero = parseInt(codigo.value);
   let mensaje= texto.value.toUpperCase();
   let resultado2 = cipher.decode(numero, mensaje);
-
-  prueba1.innerHTML= resultado2
+  prueba1.innerHTML= resultado2;
 
 }
 ocultado1.style.display="none";
