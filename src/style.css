@@ -7,11 +7,14 @@ body {
   background-size: 100% 100%;
   text-align: center;
   font-size:200%;
+  color :rgba(59, 21, 107);
 }
 
 button{
   border-radius: 10%;
-  background-color: transparent;
+  background-color:rgba(235, 161, 101, 0.925);
+  border: 1.25px solid black;
+  
 }
 button:hover{
   background-color:brown;
@@ -21,74 +24,85 @@ form{
   margin:auto;
   width: 60%;
 }
-#letter{
-  margin-inline-start: 20%;
+#letras{
+  margin-inline-start:10%;
 }
 
 #texto{
   width: 70%;
   height: 100px;
   font-size: 50%;
-  font-family:Impact;
+  font-family:Cambria;
   text-align: center;
   border-radius: 10%;
   margin-right: 15%;
   margin-left: 15%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
- label{
-   font-family:Trebuchet MS;
 
+
+label{
+  font-family:Trebuchet MS;
+  padding-top :5%;
+  padding-bottom:5%;
 }
+
+
 #codigo{
   width:70%;
   height: 50%;
   font-size:50%;
-  font-family: Impact;
+  font-family:Cambria; 
   text-align: center;
   border-radius:10%;
-  margin-top: 5%;
-  
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
-#btn-cifrar, #btn-descifrar, #return{
-display: inline-flex;
-justify-content: center;
-padding: 2%;
- }
+
+
+#button-cifrar, #button-descifrar, #retorno{
+ display: inline-flex;
+ justify-content: center;
+ padding: 2%;
+}
 
 #hoja2{
-  background-color: rgba(104, 74, 74, 0.705);
+  background-color: rgba(241, 199, 156, 0.40);
   background-attachment: fixed; 
   width:40%;
   padding:3%; 
   margin-left:5%;
-  margin-top: 5%;
+  margin-top: 3%;
   border-radius:10%;
   position: center;
-
 }
-#next{
-display:inline-flex;
-justify-content: center;
-padding:1%;
-margin-right: 40%;
-margin-top: 8%;
 
+#Siguiente{
+ display:inline-flex;
+ justify-content: center;
+ padding:1%;
+ margin-right:53%;
+ margin-top: 6%;
 }
 
 h2{
   margin-right:40%;
   margin-top:8%;
+  font-size:80%;
+  margin: 20px;
 }
 
 h3{
-  font-family: Arial;
-  font-size:50%;
-
- }
-h4{
-  font-family:Verdana;
-  font-size: 50%;
+  font-family:Impact;;
+  font-size:100%;
   margin-right:50%;
+  margin-top: 10%;
+}
+
+ul{
+  text-align: left;
+  font-size: 70%;
 }
 
 

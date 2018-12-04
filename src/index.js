@@ -1,22 +1,21 @@
 
 const texto = document.getElementById("texto");
 const codigo = document.getElementById("codigo");
-const prueba1 = document.getElementById("prueba1");
-//const prueba2 = document.getElementById("prueba2");
-const btnCifrar = document.getElementById("btn-cifrar");
-const btnDescifrar = document.getElementById("btn-descifrar");
-const buttonNext = document.getElementById("next");
-const mostrando1 = document.getElementById("hoja1");
-const ocultado1 = document.getElementById("hoja2");
-const buttonReturn = document.getElementById("return");
+const resultadoFinal = document.getElementById("resultado-final");
+const buttonCifrar = document.getElementById("button-cifrar");
+const buttonDescifrar = document.getElementById("button-descifrar");
+const buttonSiguiente = document.getElementById("Siguiente");
+const caja1 = document.getElementById("hoja1");
+const caja2 = document.getElementById("hoja2");
+const buttonRetorno = document.getElementById("retorno");
 
 //Función cifrar
 const Cifrar = () => {
   let numero = parseInt(codigo.value);
   let mensaje = texto.value.toUpperCase();
   let resultado1 = cipher.encode(numero, mensaje);
-  prueba1.style.display = "block";
-  prueba1.innerHTML = resultado1;
+  resultadoFinal.style.display = "block";
+  resultadoFinal.innerHTML = resultado1;
 
 }
 //Función descifrar
@@ -24,17 +23,17 @@ const Descifrar = () => {
   let numero = parseInt(codigo.value);
   let mensaje = texto.value.toUpperCase();
   let resultado2 = cipher.decode(numero, mensaje);
-  prueba1.innerHTML = resultado2;
+  resultadoFinal.innerHTML = resultado2;
 
 }
-ocultado1.style.display = "none";
-btnCifrar.addEventListener("click", Cifrar);
-btnDescifrar.addEventListener("click", Descifrar);
-buttonNext.addEventListener("click", () => {
-  mostrando1.style.display = "none";
-  ocultado1.style.display = "block";
+caja2.style.display = "none";
+buttonCifrar.addEventListener("click", Cifrar);
+buttonDescifrar.addEventListener("click", Descifrar);
+buttonSiguiente.addEventListener("click", () => {
+  caja1.style.display = "none";
+  caja2.style.display = "block";
 })
-buttonReturn.addEventListener("click", () => {
-  ocultado1.style.display = "none";
-  mostrando1.style.display = "block";
+buttonRetorno.addEventListener("click", () => {
+  caja2.style.display = "none";
+  caja1.style.display = "block";
 })
