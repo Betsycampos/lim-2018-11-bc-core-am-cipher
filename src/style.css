@@ -52,36 +52,44 @@ form{
   margin-inline-start:10%;
 }
 
+#codigo{
+  background-color: rgba(255, 255, 255, 0.075);
+  width: 70%;
+  height: 50px;
+  font-size: 50%;
+  font-family:Cambria;
+  text-align: center;
+  border-radius: 8%;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-weight: bolder;
+}
+
 #texto{
+  background-color: rgba(255, 255, 255, 0.075);
   width: 70%;
   height: 100px;
   font-size: 50%;
   font-family:Cambria;
   text-align: center;
-  border-radius: 10%;
+  border-radius: 8%;
   margin-right: 15%;
   margin-left: 15%;
   margin-top: 10%;
   margin-bottom: 10%;
+  font-weight: bolder;
 }
 
+::placeholder {
+  color: #000000;
+}
 
 label{
   font-family:Trebuchet MS;
   padding-top :5%;
   padding-bottom:5%;
-}
-
-
-#codigo{
-  width:70%;
-  height: 50%;
-  font-size:50%;
-  font-family:Cambria; 
-  text-align: center;
-  border-radius:10%;
-  margin-top: 10%;
-  margin-bottom: 10%;
 }
 
 
