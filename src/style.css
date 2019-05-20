@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Acme');
 
 body {
-  background-image: url(fondo-css.png);
+  background-image: url(https://c.wallhere.com/photos/85/1a/couple_kiss_silhouettes_love_night-1285129.jpg!d);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size:cover;
   text-align: center;
   font-size:200%;
   color: rgb(220, 220, 220);
